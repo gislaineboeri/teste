@@ -1,0 +1,70 @@
+.banner {
+    position: relative;
+    background: url("wallpaper.png");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    /*background: #12c485; */
+    font-family: 'Calibri', serif;
+}
+
+.navbar ul li a {
+    color: #fff; 
+}
+
+#horizontal {
+    background: url("teste.jpg");
+    padding: 70px 0 200px 0; 
+    background-size: cover; 
+    background-position: center;
+   
+}
+
+.banner h2 {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner .btn {
+    text-align: center;
+    display: block;
+    color: #fff;
+    
+}
+
+/*
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}*/
+

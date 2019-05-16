@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Master Informática</title>
+
+    <!--link css bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--scroll-->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--css externo-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--fonte-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+    
+</head>
+
+<body>
+
+  <header>
+    <!--navbar bootstrap-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+
+        <!--logo-->
+        <img src="imagens/logo.png" alt="logo" style="width:100px;"> <span class="text-secondary"></span>
+        <!--responsividade navbar-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsivo" aria-controls="navbarResponsivo" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!--continuação navbar-->
+        <div class="collapse navbar-collapse" id="navbarResponsivo">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+              <li><a href="#home">HOME</a>&nbsp &nbsp &nbsp</li>
+              <li><a href="#servicos">NOSSOS SERVIÇOS</a>&nbsp &nbsp &nbsp</li> 
+              <li><a href="#quemsomos">QUEM SOMOS</a>&nbsp &nbsp &nbsp</li>
+              <li><a href="#contato">CONTATO</a></li>
+            </ul>
+          </div>
+      </div>
+    </nav><!--fecha nav navbar-->
+  </header>
+
+  <section class="banner" id="home">
+    <h2>Master Informática, a solução certa para você!</h2>
+    <a href="#servicos" class="btn btn-link">Saiba Mais</a>           
+  </section>
+
+  <div class="site-section" id="servicos">  
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12">
+           <h3 class="title-empresa text-center text-uppercase"><br><br>Nossos Serviços</h3>
+          </div>
+        </div>
+        <div class="row">
+            
+          <!--MANUTENÇÃO EM NOTEBREAK IMPLEMENTAR-->
+    
+            <!--serviços notebook-->
+            <div class="col-md-4 text-center mb-4">
+              <div class="border p-4 text-with-icon">
+                <span class="flaticon-customer-service icon display-4 mb-4 d-block text-primary"></span>
+                <h2 class="h5 text-uppercase">Manutenção em Notebooks</h2>
+                <p>Somos uma empresa que preza pela qualidade dos nossos serviços e produtos, contamos com uma equipe altamente qualificada para serviços em notebooks que demandam mais cuidados, trabalhando cada vez mais para satisfação do cliente, sempre em constante atualização de novas tecnologias no mercado.</p>
+            <!--botão modal-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Saiba mais</button> 
+        <!--modal-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Serviços abordados na Manutenção em Notebooks</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <h6>&nbsp;&bull; Troca de memória RAM, HD, placa de vídeo, processador;</h6>
+                  <h6>&nbsp;&bull; Limpeza interna preventiva;</h6>
+                  <h6>&nbsp;&bull; Troca de tela, teclado e bateria, cabos flat e cooler;</h6>
+                  <h6>&nbsp;&bull; Remoção de vírus e softwares indesejados;</h6>
+                  <h6>&nbsp;&bull; Instalação e atualização do Windows;</h6>
+                  <h6>&nbsp;&bull; Instalação de Softwares;</h6>
+                  <h6>&nbsp;&bull; Recuperação de dados;</h6>
+                  <h6>&nbsp;&bull; Formatação Windows e Linux;</h6>
+                  <h6>&nbsp;&bull; Venda de componentes compatíveis;</h6>
+                  <h6>&nbsp;&bull; Instalação e configuração de drives.</h6>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--fecha div notebooks-->
+
+    
+    <!--serviços desktop-->
+    <div class="col-md-4 text-center mb-4">
+      <div class="border p-4 text-with-icon">
+        <span class="flaticon-group icon display-4 mb-4 d-block text-primary"></span>
+        <h2 class="h5 text-uppercase">Manutenção em Desktops</h2>
+        <p>Somos uma empresa especializada na assistência técnica em desktops, em nossa loja fornecemos periféricos de personalização de seu desktop e deixamos sua máquina pronta para uso. Contamos com uma equipe altamente qualificada em constante atualização de novas tecnologias disponíveis no mercado.</p>
+                
+        <!--botão modal-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalDesktop">Saiba mais</button>
+        <!--modal-->
+        <div class="modal fade" id="exampleModalDesktop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Serviços abordados na Manutenção em Desktops</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <h6>&nbsp;&bull; Troca de memória RAM, placa de vídeo, processador;</h6>
+                  <h6>&nbsp;&bull; Limpeza interna preventiva;</h6>
+                  <h6>&nbsp;&bull; Troca de HD ou upgrade por SSD;</h6>
+                  <h6>&nbsp;&bull; Troca da fonte de energia;</h6>
+                  <h6>&nbsp;&bull; Instalação e atualização do Windows;</h6>
+                  <h6>&nbsp;&bull; Instalação de Softwares;</h6>
+                  <h6>&nbsp;&bull; Recuperação de dados;</h6>
+                  <h6>&nbsp;&bull; Formatação Windows e Linux;</h6>
+                  <h6>&nbsp;&bull; Venda de componentes compatíveis;</h6>
+                  <h6>&nbsp;&bull; Instalação e configuração de drives;</h6>
+                  <h6>&nbsp;&bull; Dimensionamento da configuração de acordo com o objetivo do cliente.</h6>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--fecha div desktops-->
+    
+    <!--serviços impressoras-->
+    <div class="col-md-4 text-center mb-4">
+      <div class="border p-4 text-with-icon">
+        <span class="flaticon-medal icon display-4 mb-4 d-block text-primary"></span>
+        <h2 class="h5 text-uppercase">Serviços em Impressoras</h2>
+        <p>Trabalhamos também com manutenção de impressoras, oferecendo as melhores soluções em produtos, locação e manutenção, entrams em contato com cada cliente antes de enviar um técnico para diagnosticar o problema. Contamos com uma equipe motivada e sempre atualizada para prestar o melhor serviço ao cliente.</p>
+
+          <!--botão modal-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalSmartphone">Saiba mais</button>
+        <!--modal-->
+        <div class="modal fade" id="exampleModalSmartphone" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Serviços abordados na Manutenção de Impressoras</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <h6>&nbsp;&bull; Instalação de impressoras;</h6>
+                  <h6>&nbsp;&bull; Problemas de qualidade de impressão;</h6>
+                  <h6>&nbsp;&bull; Troca de peças;</h6>
+                  <h6>&nbsp;&bull; Instalação de drives;</h6>
+                  <h6>&nbsp;&bull; Possíveis reparos nos painéis, fontes e placa lógica;</h6>
+                  <h6>&nbsp;&bull; Manutenção preventiva e corretiva;</h6>
+                  <h6>&nbsp;&bull; Troca de tonners.</h6>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!--fecha div impressoras-->
+
+      <!--demonstração de produtos-->
+      <p class="text-center lead">Nossa empresa disponibiliza para venda, diversos produtos de ótima qualidade, estamos sempre preparados para atendê-lo e ajudá-lo a escolher o que é melhor para você. Abaixo alguns produtos disponíveis em nossa loja física.</p>
+
+      <div class="card-group">
+          <div class="card">
+            <img src="imagens/produto-impressora.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Impressora HP</h5>
+              <p class="card-text">A Multifuncional HP Officejet Pro 8710 é uma impressora com tecnologia jato de tinta que imprime, copia, digitaliza envia e recebe fax de forma profissional e confiável. Sua tecnologia de impressão é a Jato de Tinta Térmico HP, possui conexão s/ fio (wireless). </p>
+              <p class="card-text"><small class="text-muted">Última atualização há 56 minutos atrás</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagens/produto-notebook.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Acer Predator Helios 300</h5>
+              <p class="card-text">Uma ótima opção para os amadores de jogos, possui uma tela com 15.6 polegadas, Memória de Vídeo de 6GB, Placa de vídeo NVIDIA GeForce, Processador Intel Core i7-7700HQ, Velocidade do Processador de 2.8 GHz, Capacidade do HD	de 2048 GB.</p>
+              <p class="card-text"><small class="text-muted">Última atualização há 57 minutos atrás</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagens/produto-mouse.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mouse OEX MS-315</h5>
+              <p class="card-text">Mouse óptico, possui 12 botões com função macro ajustáveis pelo software, cabo trançado, mais resistente e durável, aceleração de 20G, cabo de 1,8m com filtro eletro-magnético, que evita interferências no funcionamento, dimensões de 124 x 75 x 42 mm.</p>
+              <p class="card-text"><small class="text-muted">Última atualização há 58 minutos atrás</small></p>
+            </div>
+          </div>
+        </div>
+
+      </div><!--div classe row-->
+        </div><!--fecha primeira div container-->
+      </div><!--fecha div sessão serviços-->
+      <br>
+
+      <section id="horizontal">
+      </section>
+
+      <!--sessão quem somos-->
+      <div class="site-section" id="quemsomos">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <h3 class="title-quemsomos text-center text-uppercase"><br><br>Quem Somos</h3>
+            </div>
+          </div>
+          <div class="row">
+              <div class="padding">
+                  <div class="container">
+                    <div class="row">
+                      <div class="texto1 col-sm-6">
+                        <p class="lead">A Master Informática foi fundada em 2010, com o objetivo de fornecer equipamentos de informática de altíssima qualidade, trazendo aos seus clientes o que há de mais moderno em tecnologia.</p>
+                        <p class="lead">Disponilizando dos serviços de assistêcia técnica, manutenção de computadores, além de oferecer produtos de informática para venda.</p>
+                        <p class="lead">Destaca-se em oferecer produtos, serviços e assessoria em informática para todos os segmentos de mercado, desde a indústria, comércio, empresas públicas, até mesmo na manutenção de computadores pessoais.</p>
+                      </div> 
+                      <div class="col-md-6">
+                          <img src="imagens/empresa.jpeg" class="img-responsive" alt="Imagem Responsiva">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+        </div><!--fecha sessão quem somos-->
+
+        <!--sessão contato-->
+        <div class="row mt-5 mb-5">
+            <div class="col-md-6 offset-md-3" id="contato">
+                <h3 class="title-contato text-center text-uppercase"><br><br>Contato</h3>
+                <form id="formulario">
+                    <div class="form-group">
+                      <label for="nomeContato">Nome:</label>
+                      <input type="name" class="form-control" id="nomeContato" placeholder="Digite seu nome completo">
+                    </div>
+      
+                     <div class="form-group">
+                       <label for="contatoEmail">Email:</label>
+                       <input type="email" class="form-control" id="contatoEmail" placeholder="exemplo@exemplo.com">
+                      </div>
+              
+                    <div class="form-group">
+                      <label for="contatoMensagem">Mensagem:</label>
+                      <textarea class="form-control" id="contatoMensagem" placeholder="Como podemos ajudar?" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary float-right">Enviar</button>
+                  </form>
+                </div>
+        </div>
+
+     <!--footer-->
+<footer class="page-footer center-on-small-only unique-color-dark pt-0">
+    <!--background informações rodapé-->
+    <div style="background-color: white;">
+
+    <!--background redes sociais-->
+    <div style="background-color: #377062;">
+      <div class="container">
+
+        <!--linha de grade-->
+        <div class="row py-4 d-flex align-items-center">
+
+          <!--coluna em grade-->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0 white-text">Conecte-se conosco nas redes sociais!</h6>
+          </div>
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+              <!--facebook-->
+              <a class="fb-ic" rel="tooltip" title="Curta-nos no Facebook" data-placement="bottom" href="https://www.facebook.com/MasterInformaticaa/" target="_blank"><i class="fa fa-facebook-f white-text mr-4"></i></a> 
+              <!--instagram-->
+              <a class="ins-ic" rel="tooltip" title="Siga-nos no Instagram" data-placement="bottom" href="https://www.instagram.com/masterinformaticaa/" target="_blank"><i class="fa fa-instagram white-text"></i></a> 
+              
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--rodapé links-->
+    <div class="container text-center text-md-left mt-4">
+
+      <!--linha de grade-->
+      <div class="row mt-3">
+         <!--empresa-->
+         <!--coluna de grade-->
+         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-3">
+          <h6 class="text-uppercase font-weight-bold">Sobre a empresa</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Desde 2015, a Master Informática traz a seus clientes o que há de mais moderno em tecnologia, sempre prezando pela qualidade dos nossos serviços e produtos disponíveis a você.</p>
+        </div>
+
+         <!--links diretos para facilitar a navegação-->
+         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Links Úteis</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><a href="#home">Home</a></p>
+          <p><a href="#servicos">Nossos Serviços<a></p>
+          <p><a href="#quemsomos">Quem Somos</a></p>
+          <p><a href="#contato">Contato</a></p> 
+        </div>
+
+       <!--contato-->
+       <div class="col-md-4 col-lg-5 col-xl-4 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase font-weight-bold">Contato</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><i class="fa fa-home mr-3"></i> Av. Brasil. 535, sala 01 – Centro, Palmitos SC</p>
+          <p><i class="fa fa-envelope mr-3"></i> infomaster39@gmail.com</p>
+          <p><i class="fa fa-phone mr-3"></i> +55 49 3647 3139</p>
+          <p><i class="fa fa-whatsapp mr-3"></i> +55 49 988466229</p>
+        </div>
+
+        <!--horário de funcionamento-->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">Funcionamento</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>Segunda a sexta: 8:00h ás 11:45h e 13:30 ás 18:00h</p>
+            <p>Sábado: 8:00h ás 11:45h</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright - Todos os Direitos Reservados
+    </div>
+
+  </footer>
+  
+  <!--jquery para ação de botões-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.border', {
+      duration: 2000,
+       origin:'right',
+    });
+
+    sr.reveal('.title-empresa', {
+      duration: 2000,
+      origin:'right',  
+    });
+
+    sr.reveal('.card', {
+      duration: 2000,
+      origin:'right',  
+    });
+        
+    sr.reveal('.title-quemsomos', {
+      duration: 2000,
+      origin:'right',  
+    });  
+
+    sr.reveal('.texto1', {
+      duration: 2000,
+      origin:'right',  
+    });   
+
+    sr.reveal('.title-contato', {
+      duration: 2000,
+      origin:'right',  
+    }); 
+
+    
+ 
+
+
+  </script>
+
+  <!--scroll páginas-->
+  <script>
+    $(function() {
+      //suavizar scroll
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+  
+  </body>
+</html>
