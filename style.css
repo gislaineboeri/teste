@@ -104,7 +104,6 @@ html, body {
 .content-w3pvt-img img {
   border-radius: 50%;
   -webkit-border-radius: 50%;
-  -o- border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
 }
@@ -149,4 +148,9 @@ a.move-top {
   bottom: 4%;
   right: 2%;
   z-index: 0;
+}
+
+#map {
+    width: 90%;
+    height: 400px;
 }
