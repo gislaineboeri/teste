@@ -9,15 +9,6 @@ html, body {
   width: 100%;
 }
 
-.banner {
-    position: relative;
-    background: url("wallpaper.png");
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    padding: 250px 0 200px;
-}
-
 .navbar {
   width: 100%;
   height: 55px;
@@ -35,86 +26,35 @@ html, body {
   text-decoration: none;
 }
 
+.banner {
+  position: relative;
+  background: url("wallpaper.png");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+}
+
 
 .banner h2 {
-    color: #fff;
-    font-family: 'PT Sans', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.banner .btn {
-    text-align: center;
-    display: block;
-    color: #fff; 
-    text-decoration: none;
-}
-
-.title-empresa {
-  font-family: 'Playfair Display SC', serif;
-  font-size: 35px;
-  color: #074a2f;
-  font-weight: bold;
-}
-
-.title-quemsomos {
-  font-family: 'Playfair Display SC', serif;
-  font-size: 35px;
-  color: #074a2f;
-  font-weight: bold;
-}
-
-.title-contato {
-  font-family: 'Playfair Display SC', serif;
-  font-size: 35px;
-  color: #074a2f;
-  font-weight: bold;
-}
-
-.title-conectar, .fb-ic, .ins-ic {
   color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.link-home, .link-servicos, .link-quemsomos, .link-contato  {
-  color: #000;
-}
-
-.whats {
-  height:80px; 
-  position:fixed; 
-  bottom: 25px; 
-  right: 25px; 
-  z-index:100;
-}
-
-.serives-w3pvt-web h4 {
-  font-weight: 20;
+/*estilizando ícone home*/
+.banner .fa {
+  position: absolute;
+  bottom: 300px;
+  left: 650px; 
   color: #ffffff;
-  font-size: 30px;
-  font-family: 'Neuton', serif;
+  font-size: 35px;
+  text-decoration: none;
 }
-
-
-/*sobre*/
-
-.content-w3pvt-img {
-    padding: 0 5em;
-}
-
-.content-w3pvt-img img {
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-}
-
-.col-md-7 p {
-  font-size: 18px;
-}
-/*fecha sessão sobre*/
 
 /*centralizar texto do banner fixo a esquerda*/
-.order-show-w3ls {
+.frase-banner-fixo {
   padding: 0em 40em 0em 0em;
 }
 
@@ -129,28 +69,82 @@ html, body {
 }
 
 /*frase banner fixo*/
-.order-show-w3ls h4 {
+.frase-banner-fixo h4 {
   color: #ffffff;
   font-family: 'Nunito', sans-serif;
 }
 
-.demo {
-  color: #074a2f;
+.frase-banner-fixo h5 {
+  text-align: center;
 }
 
-/*icone mover para o topo*/
-a.move-top {
-  width: 1275px;
-  height: 34px;
-  background: url(move-top.png) no-repeat;
-  display: inline-block;
-  position: fixed;
-  bottom: 4%;
-  right: 2%;
-  z-index: 0;
+.frase-banner-fixo h6 {
+  text-align: center;
+}
+
+/*sobre*/
+.content-w3pvt-img {
+    padding: 0 5em;
+}
+
+.content-w3pvt-img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+}
+
+.col-md-7 p {
+  font-size: 18px;
+}
+
+.title-empresa, .title-quemsomos, .title-contato, .title-processadores {
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+  color: #074a2f;
+  font-weight: bold;
+}
+
+.title-conectar, .fb-ic, .ins-ic {
+  color: #fff;
 }
 
 #map {
-    width: 90%;
-    height: 400px;
+  width: 100%;
+  height: 350px;
+}
+
+#rodape-text, #rodape-text1 {
+  text-align: justify;
+}
+
+#sobre-text p  {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.section-processador img {
+  float: left;
+}
+
+.section-processador #teste{
+  position: relative;
+  top: 30px;
+  left: 30px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pag-processador {
+  text-align: center;
+}
+
+#portfolio p{
+  text-align: center;
+}
+
+.title-produtos {
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Crimson Text', serif;
 }
